@@ -1,0 +1,95 @@
+html, main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+}
+img, .container-main{width: 100%;}
+body, main{
+    height: 100%;
+    width: 100%;
+}
+.first-aside{
+    border-right:1px solid gray ;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+.sec-div{
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+}
+
+main>header{
+    background-color: #81EE00;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.sec-header{
+    width: 100%;
+}
+.sec-header>div.secu>a>.bi{
+    color: white;
+    font-size: 2em;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    font-weight: 700;
+}
+a>i{color: rgb(120, 176, 35);}
+i{
+    height: 100%;
+    font-size: 1.1em;
+    margin-right: 4px;
+    align-items: center;
+}
+
+.btn{color: black;}
+.New{
+    background-color: greenyellow;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.add-message{
+    background-color: greenyellow;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 30px;
+}
+.div-acciones-img{
+    justify-content: end;
+    gap: 10px;
+}
+.btn-acciones-img{
+    background-color: #CFD8DC;
+    padding: 0 5px 0 0;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.btn-accion{
+    color: rgb(255, 255, 255);
+    background-color: greenyellow;
+    border-radius: 100%;
+    padding: 0px 4px;
+}
+a.text-section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    border-radius: 8px;
+    border: 1px solid #6CEB4B;
+}
